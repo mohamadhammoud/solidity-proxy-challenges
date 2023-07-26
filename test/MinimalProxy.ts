@@ -41,7 +41,6 @@ describe("Minimal Proxy", function () {
 
       const owner1 = await StoreMinimal.attach(proxy).getOwner();
 
-      console.log(owner1);
       expect(owner1).to.equal(owner.address);
     });
   });
