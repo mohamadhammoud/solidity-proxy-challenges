@@ -14,6 +14,7 @@
     "hardhat": "^2.17.0"
   },
   "dependencies": {
+    "@gnosis.pm/safe-contracts": "^1.3.0",
     "@openzeppelin/contracts": "^4.9.2",
     "@openzeppelin/contracts-upgradeable": "^4.9.2",
     "solady": "^0.0.112",

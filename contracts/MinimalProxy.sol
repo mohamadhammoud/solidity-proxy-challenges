@@ -4,7 +4,6 @@ pragma solidity ^0.8.9;
 import "@openzeppelin/contracts/proxy/Clones.sol";
 
 // Uncomment this line to use console.log
-// import "hardhat/console.sol";
 
 contract MinimalProxyFactory {
     using Clones for address;
